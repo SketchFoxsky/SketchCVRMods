@@ -1,0 +1,16 @@
+{
+  "_id": -1,
+  "name": "ClimbingSystem",
+  "modversion": "1.0.0",
+  "gameversion": "r181",
+  "loaderversion": "0.7.2",
+  "modtype": "Mod",
+  "author": "SketchFoxsky",
+  "description": "Unreleased mod finally seeing the light of day. Using a custom component have Desktop and VR climbing to your world or prop!",
+  "searchtags": ["Climbing", "Physic", "Physics", "Movement" ],
+  "requirements": null,
+  "downloadlink": "",
+  "sourcelink": "",
+  "changelog": "Initial Release for r181 hf3",
+  "embedcolor": "#246382"
+}

@@ -1,16 +1,16 @@
 {
-  "_id": 239,
+  "_id": -1,
   "name": "SourceMovement",
-  "modversion": "1.0.3",
-  "gameversion": "r180",
-  "loaderversion": "0.6.1",
+  "modversion": "1.0.0",
+  "gameversion": "r181",
+  "loaderversion": "0.7.2",
   "modtype": "Mod",
   "author": "SketchFoxsky",
   "description": "Move around like Gordon Freeman, or dont; Up to you",
   "searchtags": ["Source", "Movement", "Half", "Life", "Bunny", "Hop"],
   "requirements": null,
-  "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/SourceMovement.dll",
-  "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/SourceMovement",
-  "changelog": "Updated Developer info",
+  "downloadlink": "",
+  "sourcelink": "",
+  "changelog": "Reuploaded and Updated for r181 hf3",
   "embedcolor": "#246382"
 }

@@ -1,12 +1,12 @@
 {
-  "_id": 260,
+  "_id": -1,
   "name": "PortableCameraEnhancements",
-  "modversion": "1.0.1",
-  "gameversion": "2025r180",
+  "modversion": "1.0.0",
+  "gameversion": "r181",
   "loaderversion": "0.7.2",
   "modtype": "Mod",
   "author": "SketchFoxsky",
-  "description": "Lock your camera in Local Space, Track not just your head but your WHOLE avatar! More to come in the future!",
+  "description": "Player Tracking enhancement, all other features became native",
   "searchtags": [
     "Camera",
     "Player Tracking",
@@ -17,8 +17,8 @@
   "requirements": [
     "None"
   ],
-  "downloadlink": "https://github.com/SketchFoxsky/CVR-Mods/releases/download/Releases/PortableCameraEnhancements.dll",
-  "sourcelink": "https://github.com/SketchFoxsky/CVR-Mods/tree/main/PortableCameraEnhancements",
-  "changelog": "No one actually tested it, developer info is finally updated!",
+  "downloadlink": "",
+  "sourcelink": "",
+  "changelog": "Reuploaded and updated to r181 hf3",
   "embedcolor": "#fcba03"
 }
