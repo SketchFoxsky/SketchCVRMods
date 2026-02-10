@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+		<ItemGroup>
+			<Compile Remove="Resources\Gohsantosadrive_Icons\**" />
+			<EmbeddedResource Remove="Resources\Gohsantosadrive_Icons\**" />
+			<None Remove="Resources\Gohsantosadrive_Icons\**" />
+		</ItemGroup>
+
+	<PropertyGroup>
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+			<Reference Include="BTKUILib">
+				<Hintpath>E:\SteamLibrary\steamapps\common\ChilloutVR\Mods\BTKUILib.dll</Hintpath>
+				<Private>False</Private>
+				<HintPath>..\.ManagedLibs\BTKUILib.dll</HintPath>
+			</Reference>
+			<None Remove="Resources\Crowbar.png" />
+			<EmbeddedResource Include="Resources\Crowbar.png" />
+		</ItemGroup>
+	</Project>
