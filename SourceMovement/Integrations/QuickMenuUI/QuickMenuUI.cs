@@ -1,11 +1,11 @@
-﻿using BTKUILib;
-using BTKUILib.UIObjects;
+﻿using ABI_RC.Systems.UI.UILib;
+using ABI_RC.Systems.UI.UILib.UIObjects;
 using System.Reflection;
 using MelonLoader;
 
 namespace SourceMovement.Integrations
 {
-    public static partial class BTKUIAddon
+    public static partial class QuickMenuUI
     {
         private static Page _rootPage;
         private static string _rootPageElementID;
@@ -17,11 +17,11 @@ namespace SourceMovement.Integrations
             {
                 SetupIcons();
                 SetupSM_ModTab();
-                MelonLogger.Msg("[BTKUIAddon] Source Movement tab created successfully.");
+                MelonLogger.Msg("QuickMenu Source Movement tab created successfully.");
             }
             catch (Exception ex)
             {
-                MelonLogger.Error($"[BTKUIAddon] Failed to create Source Movement tab: {ex}");
+                MelonLogger.Error($"QuickMenu Failed to create Source Movement tab: {ex}");
             }
         }
 
@@ -32,7 +32,7 @@ namespace SourceMovement.Integrations
             string assemblyName = assembly.GetName().Name;
 
             QuickMenuAPI.PrepareIcon("Source Movement", "Crowbar", GetIconStream("Crowbar.png"));
-            MelonLogger.Msg("BTKUI Tab should be made");
+            MelonLogger.Msg("QuickMenu Tab should be made");
             Stream GetIconStream(string iconName) => assembly.GetManifestResourceStream($"{assemblyName}.Resources.{iconName}");
             
             
@@ -76,7 +76,7 @@ namespace SourceMovement.Integrations
             };
 
             QuickMenuAPI.OnTabChange += OnTabChange;
-            MelonLogger.Msg("BTKUI Tab should be made");
+            MelonLogger.Msg("QuickMenu Tab should be made");
         }
 
         private static DateTime lastTime = DateTime.Now;

@@ -65,7 +65,7 @@ namespace Sketch.SourceMovement
             });
 
             CVRWorld.GameRulesUpdated += OnApplyMovementSettings;
-            BTKUIAddon.Initialize();
+            QuickMenuUI.Initialize();
         }
 
         // Get World Movement Settings, This will also work on runtime with animated CVR World Settings!
