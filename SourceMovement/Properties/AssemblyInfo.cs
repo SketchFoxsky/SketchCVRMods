@@ -21,7 +21,7 @@ namespace Sketch.SourceMovement.Properties
 {
     internal static class AssemblyInfoParams
     {
-        public const string Version = "1.0.3";
+        public const string Version = "1.0.0";
         public const string Author = "SketchFoxsky";
     }
 }
