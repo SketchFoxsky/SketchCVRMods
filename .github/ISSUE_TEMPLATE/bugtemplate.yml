@@ -1,0 +1,58 @@
+name: Bug report
+description: Template for bug reports
+title: '[Bug]: '
+labels:
+  - bug
+body:
+  - type: input
+    id: ModID
+    attributes:
+      label: Mod
+      description: Which mod are you experiencing issues with
+      placeholder: SourceMovement
+    validations:
+      required: true
+  - type: input
+    id: GameVersion
+    attributes:
+      label: Game Version
+      description: What version of ChilloutVR were you on
+      placeholder: r181 Stable/Scripting/Nightly
+    validations:
+      required: true
+  - type: input
+    id: ModVersion
+    attributes:
+      label: Mod Version
+      description: Which version of the mod are you using?
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: BugDesc
+    attributes:
+      label: Bug Description
+      description: Briefly describe the bug you are experiencing.
+    validations:
+      required: true
+  - type: textarea
+    id: ExpectedOutcome
+    attributes:
+      label: Expected Outcome
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: Reproduction
+    attributes:
+      label: Reproduction Steps
+      description: >-
+        In order to have people confirm this bug, I need a step by step guide on
+        how you encountered this!
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://issue-forms-creator.netlify.app)
